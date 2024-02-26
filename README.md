@@ -7,14 +7,12 @@ If you want OHLCV data for e.g. NVDA, type:
 
 ```
 Yahoo_Finance_Data(Ticker = "NVDA", interval = "15m", Range = "2d", End_Candle = T)
-
 ```
 
 If you want OHLCV data for multiple symbols, type:
 
 ```
 Yahoo_Finance_Multi_Data(Tickers = c("SPY", "TSLA", "NVDA", "AAPL", "AMD", "QQQ", "BA", "GME"), Range = "1y", Interval = "1d", Last_N = 100)
-
 ```
 
 For recent news for a symbol, type:
